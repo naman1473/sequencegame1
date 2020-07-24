@@ -28,7 +28,7 @@ class Deck:
             b.show()
 
     def randomshuffle(self):
-    #    random.shuffle(self.cards)
+        random.shuffle(self.cards)
 
         """
         for card in self.cards:
@@ -71,7 +71,6 @@ deck.build()
 
 # 3.
 deck.randomshuffle()
-random.shuffle(deck.cards)
 
 # 4. Get two players' name and create objects
 players = []
